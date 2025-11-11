@@ -1,0 +1,42 @@
+.t_color{
+    color: red;
+}
+#t_color{
+    color: blue;
+    font-size: 100px;
+}
+#t_size{
+    font-size: 50px;
+}
+.t_shadow{
+    /* background-color: aqua; */
+    font-size: 100px;
+    color: chocolate;
+    text-shadow: 12px 12px 50px rgb(89, 255, 0);
+}
+.b_shadow{
+    box-shadow: 10px 20px 10px rebeccapurple;
+}
+.d_shadow{
+    filter: drop-shadow(10px 5px 5px rgb(255, 115, 0));
+    text-align: center;
+}
+.b_prop{
+    border: 15px dotted red;
+    
+}
+.g_prop{
+    border: 20px double orangered;
+}
+.b_radius{
+    /* border-radius: 50%; */
+    border-top-left-radius: 120px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 120px;
+
+}
+.t_align{
+    text-align: center;
+    
+}

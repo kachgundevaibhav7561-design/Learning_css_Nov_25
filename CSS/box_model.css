@@ -1,0 +1,81 @@
+.parg1{
+    border: 5px solid blueviolet;
+    font-size: 30px;
+}
+.parg2{
+    border: 5px solid blueviolet;
+    padding: 40px;
+    margin: 50px;
+}
+.parg3{
+    border: 4px solid red;
+    padding-left: 100px;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    padding-right: 70px;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    border: 2px solid red;
+}
+.box1{
+    position: static;
+    right: 10px;
+    top: 140px;
+}
+.box2{
+    position: relative;
+    left: 350px;
+    top: 50px;
+}
+.box3{
+    position: absolute;
+    left: 300px;
+    top: 50px;
+}
+.box4{
+    position: sticky;
+    top: 0;
+}
+.box5{
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+}
+.hall{
+    position: relative;
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    top: 100px;
+    left: 200px;
+}
+#tv{
+    position: absolute;
+    height: 80px;
+    width: 200px;
+    background-color: yellow;
+    left: 150px;
+}
+#Sofa{
+    position: absolute;
+    height: 50px;
+    width: 250px;
+    background-color: brown;
+    left: 120px;
+    top: 150px;
+
+
+}
+#Fridge{
+    position: absolute;
+    background-color: white;
+    bottom: 5px;
+    right: 5px;
+
+    height: 120px;
+    width: 60px;
+
+}
