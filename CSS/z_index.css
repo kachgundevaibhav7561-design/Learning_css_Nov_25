@@ -1,0 +1,27 @@
+.container{
+    position: relative;
+    margin-top: 100px;
+}
+div{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    border: 3px solid black;
+    border-radius: 100px;
+}
+.blue{
+    background-color: blue;
+    left: 40px;
+}
+.red{
+    background-color: red;
+    left: 80px;
+}
+.red:hover{
+    background-color: red;
+    left: 80px;
+}
+.green{
+    background-color: green;
+    left: 120px;
+}

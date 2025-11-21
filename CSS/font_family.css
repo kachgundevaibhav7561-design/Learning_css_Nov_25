@@ -1,0 +1,14 @@
+p{
+    font-size: 25px;
+}
+.f_family1{
+    font-family: monospace;
+    font-weight: 200;
+}
+.f_family2{
+    font-family: cursive;
+    font-weight: 400;
+}
+.f_family3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

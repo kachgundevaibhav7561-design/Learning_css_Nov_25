@@ -1,0 +1,32 @@
+h1{
+    color: red;
+    font-size: 100px;
+}
+.h_effect:hover{
+    color: yellowgreen;
+    background-color: #98fb98
+}
+.a_effect:active{
+    color: green;
+    font-size: 80px;
+    cursor: pointer;
+
+}
+input:focus{
+    background-color: red;
+    color: black;
+}
+a:visited{
+    color: crimson;
+}
+p::first-letter{
+    color: orange;
+    font-size: 70px;
+}
+p::first-line{
+    color: blueviolet;
+}
+::selection{
+    color: white;
+    background-color: black;
+}
